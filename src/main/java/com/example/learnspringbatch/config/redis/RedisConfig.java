@@ -1,5 +1,6 @@
 package com.example.learnspringbatch.config.redis;
 
+
 import com.example.learnspringbatch.entity.redis.CustomerRedis;
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

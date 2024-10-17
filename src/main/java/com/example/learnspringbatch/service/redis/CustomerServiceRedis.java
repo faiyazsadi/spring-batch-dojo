@@ -1,7 +1,6 @@
 package com.example.learnspringbatch.service.redis;
 
 import com.example.learnspringbatch.entity.redis.CustomerRedis;
-import com.example.learnspringbatch.repository.CustomerRepository;
 import com.example.learnspringbatch.repository.redis.CustomerRepositoryRedis;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

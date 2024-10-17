@@ -18,6 +18,8 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
 
 @RestController
 @RequestMapping("/jobs")
